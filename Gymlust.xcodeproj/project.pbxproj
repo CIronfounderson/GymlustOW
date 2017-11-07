@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2521001F0284B400E8A9A2 /* RefereeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2520FF1F0284B400E8A9A2 /* RefereeViewController.swift */; };
+		5F2521021F0287F300E8A9A2 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2521011F0287F300E8A9A2 /* AppUser.swift */; };
+		5F2521071F04304600E8A9A2 /* beam.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521031F04304600E8A9A2 /* beam.png */; };
+		5F2521081F04304600E8A9A2 /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521041F04304600E8A9A2 /* floor.png */; };
+		5F2521091F04304600E8A9A2 /* unevenbars.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521051F04304600E8A9A2 /* unevenbars.png */; };
+		5F25210A1F04304600E8A9A2 /* vault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521061F04304600E8A9A2 /* vault.png */; };
+		5F25210C1F06DA2100E8A9A2 /* EditScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */; };
+		5F78E7F01EF9AF4000D541CE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */; };
+		5F78E7F41EF9B07900D541CE /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */; };
+		5F8026501F09761B005BEAC0 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80264F1F09761B005BEAC0 /* lock.png */; };
+		5F8DE8671EEF22C2004DA5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */; };
+		5F8DE8691EEF22C2004DA5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */; };
+		5F8DE86C1EEF22C2004DA5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86A1EEF22C2004DA5B1 /* Main.storyboard */; };
+		5F8DE86E1EEF22C2004DA5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */; };
+		5F8DE8711EEF22C2004DA5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86F1EEF22C2004DA5B1 /* LaunchScreen.storyboard */; };
+		5F8DE87E1EF5B13C004DA5B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */; };
+		5FAE13901F81724F002983EC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE138F1F81724F002983EC /* ResultsViewController.swift */; };
+		5FAE13A71F83B91A002983EC /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE138E1F803842002983EC /* trophy.png */; };
+		5FAE13A91F84D201002983EC /* back1600White.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE13A81F84CF9C002983EC /* back1600White.png */; };
+		5FB302231EFBB9D8007D028F /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB302221EFBB9D8007D028F /* Tournament.swift */; };
+		5FB302251EFBBAD3007D028F /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB302241EFBBAD3007D028F /* Match.swift */; };
+		5FB302271EFBBB36007D028F /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB302261EFBBB36007D028F /* Participant.swift */; };
+		5FB302291EFBBB6A007D028F /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB302281EFBBB6A007D028F /* Score.swift */; };
+		5FB3022B1EFBBD35007D028F /* TournamentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3022A1EFBBD35007D028F /* TournamentViewController.swift */; };
+		5FB302321EFCE49B007D028F /* ParticipantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB302311EFCE49B007D028F /* ParticipantViewController.swift */; };
+		5FB302501EFEEB49007D028F /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FB3024F1EFEEB49007D028F /* header.png */; };
+		5FB302571F00FA8C007D028F /* admin3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FB302541F00FA8C007D028F /* admin3.png */; };
+		5FE7456E1F2FA9CD0099B60F /* redlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE7456D1F2FA9CD0099B60F /* redlight.png */; };
+		5FE745701F324C470099B60F /* gymlustAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE7456F1F324C470099B60F /* gymlustAppIcon.png */; };
+		5FE745721F33201A0099B60F /* Loadscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE745711F33201A0099B60F /* Loadscreen.png */; };
+		7D42797E4EC85E9BE5C248D6 /* Pods_Gymlust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD9E740CB8EC2D1F0142FC8 /* Pods_Gymlust.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		307D4A188C77712851B947C5 /* Pods-Gymlust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymlust.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gymlust/Pods-Gymlust.release.xcconfig"; sourceTree = "<group>"; };
+		5F2520FF1F0284B400E8A9A2 /* RefereeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefereeViewController.swift; sourceTree = "<group>"; };
+		5F2521011F0287F300E8A9A2 /* AppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		5F2521031F04304600E8A9A2 /* beam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beam.png; sourceTree = "<group>"; };
+		5F2521041F04304600E8A9A2 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
+		5F2521051F04304600E8A9A2 /* unevenbars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unevenbars.png; sourceTree = "<group>"; };
+		5F2521061F04304600E8A9A2 /* vault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vault.png; sourceTree = "<group>"; };
+		5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScoreViewController.swift; sourceTree = "<group>"; };
+		5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		5F78E7F11EF9B07800D541CE /* Gymlust-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gymlust-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F78E7F21EF9B07900D541CE /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
+		5F80264F1F09761B005BEAC0 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		5F8DE8631EEF22C2004DA5B1 /* Gymlust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymlust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F8DE86B1EEF22C2004DA5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F8DE8701EEF22C2004DA5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F8DE8721EEF22C2004DA5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Gymlust/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5FAE138E1F803842002983EC /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
+		5FAE138F1F81724F002983EC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		5FAE13A81F84CF9C002983EC /* back1600White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1600White.png; sourceTree = "<group>"; };
+		5FB302221EFBB9D8007D028F /* Tournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		5FB302241EFBBAD3007D028F /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		5FB302261EFBBB36007D028F /* Participant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
+		5FB302281EFBBB6A007D028F /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		5FB3022A1EFBBD35007D028F /* TournamentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentViewController.swift; sourceTree = "<group>"; };
+		5FB302311EFCE49B007D028F /* ParticipantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantViewController.swift; sourceTree = "<group>"; };
+		5FB3024F1EFEEB49007D028F /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		5FB302541F00FA8C007D028F /* admin3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = admin3.png; sourceTree = "<group>"; };
+		5FE7456D1F2FA9CD0099B60F /* redlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redlight.png; sourceTree = "<group>"; };
+		5FE7456F1F324C470099B60F /* gymlustAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gymlustAppIcon.png; sourceTree = "<group>"; };
+		5FE745711F33201A0099B60F /* Loadscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Loadscreen.png; sourceTree = "<group>"; };
+		A8833207D9BBEE0AA1CB288D /* Pods-Gymlust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gymlust.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gymlust/Pods-Gymlust.debug.xcconfig"; sourceTree = "<group>"; };
+		DCD9E740CB8EC2D1F0142FC8 /* Pods_Gymlust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gymlust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8DE8601EEF22C2004DA5B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D42797E4EC85E9BE5C248D6 /* Pods_Gymlust.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8DE85A1EEF22C2004DA5B1 = {
+			isa = PBXGroup;
+			children = (
+				5F78E7F21EF9B07900D541CE /* UIViewController+Alerts.h */,
+				5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */,
+				5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */,
+				5F8DE8651EEF22C2004DA5B1 /* Gymlust */,
+				5F8DE8641EEF22C2004DA5B1 /* Products */,
+				BBFA5868BF857538AE4AC47C /* Pods */,
+				8291A7F163DC28D66AF68244 /* Frameworks */,
+				5F78E7F11EF9B07800D541CE /* Gymlust-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8DE8641EEF22C2004DA5B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8DE8631EEF22C2004DA5B1 /* Gymlust.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8DE8651EEF22C2004DA5B1 /* Gymlust */ = {
+			isa = PBXGroup;
+			children = (
+				5FB302511F00FA64007D028F /* assets */,
+				5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */,
+				5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */,
+				5F8DE86A1EEF22C2004DA5B1 /* Main.storyboard */,
+				5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */,
+				5F8DE86F1EEF22C2004DA5B1 /* LaunchScreen.storyboard */,
+				5F8DE8721EEF22C2004DA5B1 /* Info.plist */,
+				5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */,
+				5FB302221EFBB9D8007D028F /* Tournament.swift */,
+				5FB302241EFBBAD3007D028F /* Match.swift */,
+				5FB302261EFBBB36007D028F /* Participant.swift */,
+				5FB302281EFBBB6A007D028F /* Score.swift */,
+				5FB3022A1EFBBD35007D028F /* TournamentViewController.swift */,
+				5FB302311EFCE49B007D028F /* ParticipantViewController.swift */,
+				5F2520FF1F0284B400E8A9A2 /* RefereeViewController.swift */,
+				5F2521011F0287F300E8A9A2 /* AppUser.swift */,
+				5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */,
+				5FAE138F1F81724F002983EC /* ResultsViewController.swift */,
+			);
+			path = Gymlust;
+			sourceTree = "<group>";
+		};
+		5FB302511F00FA64007D028F /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				5FAE13A81F84CF9C002983EC /* back1600White.png */,
+				5FAE138E1F803842002983EC /* trophy.png */,
+				5FE745711F33201A0099B60F /* Loadscreen.png */,
+				5FE7456F1F324C470099B60F /* gymlustAppIcon.png */,
+				5F80264F1F09761B005BEAC0 /* lock.png */,
+				5F2521031F04304600E8A9A2 /* beam.png */,
+				5F2521041F04304600E8A9A2 /* floor.png */,
+				5F2521051F04304600E8A9A2 /* unevenbars.png */,
+				5F2521061F04304600E8A9A2 /* vault.png */,
+				5FE7456D1F2FA9CD0099B60F /* redlight.png */,
+				5FB302541F00FA8C007D028F /* admin3.png */,
+				5FB3024F1EFEEB49007D028F /* header.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		8291A7F163DC28D66AF68244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9E740CB8EC2D1F0142FC8 /* Pods_Gymlust.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBFA5868BF857538AE4AC47C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8833207D9BBEE0AA1CB288D /* Pods-Gymlust.debug.xcconfig */,
+				307D4A188C77712851B947C5 /* Pods-Gymlust.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8DE8621EEF22C2004DA5B1 /* Gymlust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8DE8751EEF22C2004DA5B1 /* Build configuration list for PBXNativeTarget "Gymlust" */;
+			buildPhases = (
+				2717EBEDE4D41625E7E050D9 /* [CP] Check Pods Manifest.lock */,
+				5F8DE85F1EEF22C2004DA5B1 /* Sources */,
+				5F8DE8601EEF22C2004DA5B1 /* Frameworks */,
+				5F8DE8611EEF22C2004DA5B1 /* Resources */,
+				AC972170D90851D404440236 /* [CP] Embed Pods Frameworks */,
+				B42ECE0E1DAE9D199271C38B /* [CP] Copy Pods Resources */,
+				5F78E7EE1EF9AE6A00D541CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gymlust;
+			productName = Gymlust;
+			productReference = 5F8DE8631EEF22C2004DA5B1 /* Gymlust.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8DE85B1EEF22C2004DA5B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eric de Haan";
+				TargetAttributes = {
+					5F8DE8621EEF22C2004DA5B1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 244V3XRVWG;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5F8DE85E1EEF22C2004DA5B1 /* Build configuration list for PBXProject "Gymlust" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8DE85A1EEF22C2004DA5B1;
+			productRefGroup = 5F8DE8641EEF22C2004DA5B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8DE8621EEF22C2004DA5B1 /* Gymlust */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F8DE8611EEF22C2004DA5B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAE13A91F84D201002983EC /* back1600White.png in Resources */,
+				5FAE13A71F83B91A002983EC /* trophy.png in Resources */,
+				5F8DE8711EEF22C2004DA5B1 /* LaunchScreen.storyboard in Resources */,
+				5F8026501F09761B005BEAC0 /* lock.png in Resources */,
+				5F2521091F04304600E8A9A2 /* unevenbars.png in Resources */,
+				5FE745721F33201A0099B60F /* Loadscreen.png in Resources */,
+				5FB302571F00FA8C007D028F /* admin3.png in Resources */,
+				5F2521071F04304600E8A9A2 /* beam.png in Resources */,
+				5F25210A1F04304600E8A9A2 /* vault.png in Resources */,
+				5F8DE87E1EF5B13C004DA5B1 /* GoogleService-Info.plist in Resources */,
+				5F8DE86E1EEF22C2004DA5B1 /* Assets.xcassets in Resources */,
+				5FE745701F324C470099B60F /* gymlustAppIcon.png in Resources */,
+				5FB302501EFEEB49007D028F /* header.png in Resources */,
+				5F8DE86C1EEF22C2004DA5B1 /* Main.storyboard in Resources */,
+				5FE7456E1F2FA9CD0099B60F /* redlight.png in Resources */,
+				5F2521081F04304600E8A9A2 /* floor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2717EBEDE4D41625E7E050D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F78E7EE1EF9AE6A00D541CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 48ffdf574abc5a016db9205bf48ad71bb7a0a0dc a2fc116e8bee6d67f4170a472fafd8709e4bee97f50857f5ba67eb1f88a7ad8e";
+		};
+		AC972170D90851D404440236 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gymlust/Pods-Gymlust-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42ECE0E1DAE9D199271C38B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gymlust/Pods-Gymlust-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8DE85F1EEF22C2004DA5B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB3022B1EFBBD35007D028F /* TournamentViewController.swift in Sources */,
+				5F8DE8691EEF22C2004DA5B1 /* ViewController.swift in Sources */,
+				5F8DE8671EEF22C2004DA5B1 /* AppDelegate.swift in Sources */,
+				5FAE13901F81724F002983EC /* ResultsViewController.swift in Sources */,
+				5FB302291EFBBB6A007D028F /* Score.swift in Sources */,
+				5FB302321EFCE49B007D028F /* ParticipantViewController.swift in Sources */,
+				5F78E7F01EF9AF4000D541CE /* SigninViewController.swift in Sources */,
+				5F25210C1F06DA2100E8A9A2 /* EditScoreViewController.swift in Sources */,
+				5FB302271EFBBB36007D028F /* Participant.swift in Sources */,
+				5F78E7F41EF9B07900D541CE /* UIViewController+Alerts.m in Sources */,
+				5F2521021F0287F300E8A9A2 /* AppUser.swift in Sources */,
+				5FB302231EFBB9D8007D028F /* Tournament.swift in Sources */,
+				5F2521001F0284B400E8A9A2 /* RefereeViewController.swift in Sources */,
+				5FB302251EFBBAD3007D028F /* Match.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F8DE86A1EEF22C2004DA5B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8DE86B1EEF22C2004DA5B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F8DE86F1EEF22C2004DA5B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8DE8701EEF22C2004DA5B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F8DE8731EEF22C2004DA5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F8DE8741EEF22C2004DA5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F8DE8761EEF22C2004DA5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8833207D9BBEE0AA1CB288D /* Pods-Gymlust.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 244V3XRVWG;
+				INFOPLIST_FILE = Gymlust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kolossus.gymlust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gymlust-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		5F8DE8771EEF22C2004DA5B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307D4A188C77712851B947C5 /* Pods-Gymlust.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 244V3XRVWG;
+				INFOPLIST_FILE = Gymlust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.kolossus.gymlust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gymlust-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8DE85E1EEF22C2004DA5B1 /* Build configuration list for PBXProject "Gymlust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8DE8731EEF22C2004DA5B1 /* Debug */,
+				5F8DE8741EEF22C2004DA5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8DE8751EEF22C2004DA5B1 /* Build configuration list for PBXNativeTarget "Gymlust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8DE8761EEF22C2004DA5B1 /* Debug */,
+				5F8DE8771EEF22C2004DA5B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8DE85B1EEF22C2004DA5B1 /* Project object */;
+}

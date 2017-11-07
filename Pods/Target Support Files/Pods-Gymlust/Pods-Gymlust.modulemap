@@ -1,0 +1,6 @@
+framework module Pods_Gymlust {
+  umbrella header "Pods-Gymlust-umbrella.h"
+
+  export *
+  module * { export * }
+}
