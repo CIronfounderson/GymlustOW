@@ -120,7 +120,7 @@ class ParticipantViewController: UIViewController {
         self.lblFloord.text = String(format:"%.3f", self.participant.floorScore.dScore)
         self.lblFloore.text = String(format:"%.3f", self.participant.floorScore.eScore)
         self.lblFloorn.text = String(format:"%.3f", self.participant.floorScore.nScore)
-        
+        self.lblFloorScore.text = String(format:"%.3f", self.participant.floorScore.total)
         
         self.lblTotalScore.text = String(format:"%.3f", self.participant.score)
     }

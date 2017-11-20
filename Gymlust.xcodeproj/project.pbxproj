@@ -14,14 +14,13 @@
 		5F2521091F04304600E8A9A2 /* unevenbars.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521051F04304600E8A9A2 /* unevenbars.png */; };
 		5F25210A1F04304600E8A9A2 /* vault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521061F04304600E8A9A2 /* vault.png */; };
 		5F25210C1F06DA2100E8A9A2 /* EditScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */; };
+		5F6116681FC2D4EC00ADE600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6116671FC2D4EC00ADE600 /* Main.storyboard */; };
 		5F78E7F01EF9AF4000D541CE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */; };
 		5F78E7F41EF9B07900D541CE /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */; };
 		5F8026501F09761B005BEAC0 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80264F1F09761B005BEAC0 /* lock.png */; };
 		5F8DE8671EEF22C2004DA5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */; };
 		5F8DE8691EEF22C2004DA5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */; };
-		5F8DE86C1EEF22C2004DA5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86A1EEF22C2004DA5B1 /* Main.storyboard */; };
 		5F8DE86E1EEF22C2004DA5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */; };
-		5F8DE8711EEF22C2004DA5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86F1EEF22C2004DA5B1 /* LaunchScreen.storyboard */; };
 		5F8DE87E1EF5B13C004DA5B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */; };
 		5FAE13901F81724F002983EC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE138F1F81724F002983EC /* ResultsViewController.swift */; };
 		5FAE13A71F83B91A002983EC /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE138E1F803842002983EC /* trophy.png */; };
@@ -49,6 +48,7 @@
 		5F2521051F04304600E8A9A2 /* unevenbars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unevenbars.png; sourceTree = "<group>"; };
 		5F2521061F04304600E8A9A2 /* vault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vault.png; sourceTree = "<group>"; };
 		5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScoreViewController.swift; sourceTree = "<group>"; };
+		5F6116671FC2D4EC00ADE600 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		5F78E7F11EF9B07800D541CE /* Gymlust-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gymlust-Bridging-Header.h"; sourceTree = "<group>"; };
 		5F78E7F21EF9B07900D541CE /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
@@ -57,9 +57,7 @@
 		5F8DE8631EEF22C2004DA5B1 /* Gymlust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymlust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F8DE86B1EEF22C2004DA5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F8DE8701EEF22C2004DA5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F8DE8721EEF22C2004DA5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Gymlust/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5FAE138E1F803842002983EC /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
@@ -120,9 +118,7 @@
 				5FB302511F00FA64007D028F /* assets */,
 				5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */,
 				5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */,
-				5F8DE86A1EEF22C2004DA5B1 /* Main.storyboard */,
 				5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */,
-				5F8DE86F1EEF22C2004DA5B1 /* LaunchScreen.storyboard */,
 				5F8DE8721EEF22C2004DA5B1 /* Info.plist */,
 				5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */,
 				5FB302221EFBB9D8007D028F /* Tournament.swift */,
@@ -135,6 +131,7 @@
 				5F2521011F0287F300E8A9A2 /* AppUser.swift */,
 				5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */,
 				5FAE138F1F81724F002983EC /* ResultsViewController.swift */,
+				5F6116671FC2D4EC00ADE600 /* Main.storyboard */,
 			);
 			path = Gymlust;
 			sourceTree = "<group>";
@@ -242,18 +239,17 @@
 			files = (
 				5FAE13A91F84D201002983EC /* back1600White.png in Resources */,
 				5FAE13A71F83B91A002983EC /* trophy.png in Resources */,
-				5F8DE8711EEF22C2004DA5B1 /* LaunchScreen.storyboard in Resources */,
 				5F8026501F09761B005BEAC0 /* lock.png in Resources */,
 				5F2521091F04304600E8A9A2 /* unevenbars.png in Resources */,
 				5FE745721F33201A0099B60F /* Loadscreen.png in Resources */,
 				5FB302571F00FA8C007D028F /* admin3.png in Resources */,
+				5F6116681FC2D4EC00ADE600 /* Main.storyboard in Resources */,
 				5F2521071F04304600E8A9A2 /* beam.png in Resources */,
 				5F25210A1F04304600E8A9A2 /* vault.png in Resources */,
 				5F8DE87E1EF5B13C004DA5B1 /* GoogleService-Info.plist in Resources */,
 				5F8DE86E1EEF22C2004DA5B1 /* Assets.xcassets in Resources */,
 				5FE745701F324C470099B60F /* gymlustAppIcon.png in Resources */,
 				5FB302501EFEEB49007D028F /* header.png in Resources */,
-				5F8DE86C1EEF22C2004DA5B1 /* Main.storyboard in Resources */,
 				5FE7456E1F2FA9CD0099B60F /* redlight.png in Resources */,
 				5F2521081F04304600E8A9A2 /* floor.png in Resources */,
 			);
@@ -345,25 +341,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5F8DE86A1EEF22C2004DA5B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F8DE86B1EEF22C2004DA5B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5F8DE86F1EEF22C2004DA5B1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F8DE8701EEF22C2004DA5B1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F8DE8731EEF22C2004DA5B1 /* Debug */ = {
