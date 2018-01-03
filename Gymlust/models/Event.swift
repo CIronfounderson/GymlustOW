@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Event {
+    var code = ""
+    var description = ""
+    var date = ""
+}
