@@ -30,6 +30,7 @@ class SigninViewController: UIViewController, UITextFieldDelegate, UIGestureReco
     @IBOutlet weak var passwordField: UITextField!
 
     var ref: DatabaseReference!
+    var eventCode = ""
     
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var createButton: UIButton!
@@ -55,7 +56,8 @@ class SigninViewController: UIViewController, UITextFieldDelegate, UIGestureReco
     
     override func viewDidAppear(_ animated: Bool) {
         if Auth.auth().currentUser != nil {
-            self.performSegue(withIdentifier: "sgSignIn", sender: nil)
+//            self.showEventSelection()
+            self.performSegue(withIdentifier: "sgSelectEvent", sender: nil)
 //            self.performSegue(withIdentifier: "sgFill", sender: nil)
         }
         ref = Database.database().reference()
@@ -84,7 +86,7 @@ class SigninViewController: UIViewController, UITextFieldDelegate, UIGestureReco
             // [START basic_write]
             self.ref.child("users").child(user.uid).setValue(["username": username])
             // [END basic_write]
-            self.performSegue(withIdentifier: "sgSignIn", sender: nil)
+            self.performSegue(withIdentifier: "sgSelectEvent", sender: nil)
         }
         
     }
@@ -112,7 +114,8 @@ class SigninViewController: UIViewController, UITextFieldDelegate, UIGestureReco
                 
                 // Check if user already exists
                 guard !snapshot.exists() else {
-                    self.performSegue(withIdentifier: "sgSignIn", sender: nil)
+                    self.performSegue(withIdentifier: "sgSelectEvent", sender: nil)
+//                    self.showEventSelection()
                     return
                 }
                 
@@ -186,18 +189,33 @@ class SigninViewController: UIViewController, UITextFieldDelegate, UIGestureReco
         
     }
     
+//    func showEventSelection() {
+//        let vc:SelectEventViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SelectEvent") as! SelectEventViewController
+//        vc.delegate = self
+//        self.present(vc, animated: true, completion: nil)
+//    }
+    
     // MARK: - UITextFieldDelegate protocol methods
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         didTapEmailLogin(textField)
         return true
     }
     
-    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    //        if segue.identifier == "signIn" {
-    //            let vc:TeamsViewController = segue.destination as! TeamsViewController
-    //            vc.nrOfPoules = 4
-    //            vc.nrOfTeams = 16
-    //            vc.nrOfFields = 8
-    //        }
-    //    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "sgShowEvent" {
+//            let vc:TournamentViewController = segue.destination as! TournamentViewController
+//            vc.tournamentName = eventCode
+//        }
+//    }
 }
+
+//extension SigninViewController:SelectEventDelegate {
+//    func didSelectEvent(sender: SelectEventViewController, eventCode: String) {
+//        sender.dismiss(animated: true, completion: nil)
+//        self.eventCode = eventCode
+//        self.performSegue(withIdentifier: "sgShowEvent", sender: self)
+//    }
+//
+//
+//}
+

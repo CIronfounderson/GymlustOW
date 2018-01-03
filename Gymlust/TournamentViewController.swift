@@ -31,6 +31,7 @@ class TournamentViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var refereeLoginButton: UIImageView!
     @IBOutlet weak var resultsButton: UIImageView!
     @IBOutlet weak var tableview: UITableView!
+    @IBOutlet weak var lblHeader: UILabel!
     
     var selectedParticipantId = ""
     var databaseRef: DatabaseReference!
@@ -61,6 +62,7 @@ class TournamentViewController: UIViewController, UITableViewDelegate, UITableVi
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        lblHeader.text = tournamentName
         checkIfReferee()
     }
 
@@ -160,15 +162,18 @@ class TournamentViewController: UIViewController, UITableViewDelegate, UITableVi
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier=="sgParticipantDetail") {
             let vc = segue.destination as! ParticipantViewController
+            vc.tournamentName = tournamentName
             vc.participantID = selectedParticipantId
         }
         if(segue.identifier=="sgEditScore") {
             let vc = segue.destination as! EditScoreViewController
+            vc.tournamentName = tournamentName
             vc.participantID = selectedParticipantId
         }
-//        if(segue.identifier=="sgResults") {
-//            let vc = segue.destination as! ResultsViewController
-//        }
+        if(segue.identifier=="sgResults") {
+            let vc = segue.destination as! ResultsViewController
+            vc.tournamentName = tournamentName
+        }
     }
     
     func getData() {

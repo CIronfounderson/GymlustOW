@@ -18,10 +18,13 @@
 		5F78E7F01EF9AF4000D541CE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */; };
 		5F78E7F41EF9B07900D541CE /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */; };
 		5F8026501F09761B005BEAC0 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80264F1F09761B005BEAC0 /* lock.png */; };
+		5F8778F11FFD067A001C423F /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8778F01FFD067A001C423F /* EventTableViewCell.swift */; };
 		5F8DE8671EEF22C2004DA5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */; };
 		5F8DE8691EEF22C2004DA5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */; };
 		5F8DE86E1EEF22C2004DA5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */; };
 		5F8DE87E1EF5B13C004DA5B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */; };
+		5F9C78A61FFCF1FB0052E7DD /* SelectEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C78A51FFCF1FB0052E7DD /* SelectEventViewController.swift */; };
+		5F9C78A91FFCFFF10052E7DD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9C78A81FFCFFF10052E7DD /* Event.swift */; };
 		5FAE13901F81724F002983EC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE138F1F81724F002983EC /* ResultsViewController.swift */; };
 		5FAE13A71F83B91A002983EC /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE138E1F803842002983EC /* trophy.png */; };
 		5FAE13A91F84D201002983EC /* back1600White.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FAE13A81F84CF9C002983EC /* back1600White.png */; };
@@ -54,12 +57,15 @@
 		5F78E7F21EF9B07900D541CE /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
 		5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
 		5F80264F1F09761B005BEAC0 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		5F8778F01FFD067A001C423F /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		5F8DE8631EEF22C2004DA5B1 /* Gymlust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gymlust.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F8DE8721EEF22C2004DA5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Gymlust/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F9C78A51FFCF1FB0052E7DD /* SelectEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEventViewController.swift; sourceTree = "<group>"; };
+		5F9C78A81FFCFFF10052E7DD /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		5FAE138E1F803842002983EC /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
 		5FAE138F1F81724F002983EC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		5FAE13A81F84CF9C002983EC /* back1600White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back1600White.png; sourceTree = "<group>"; };
@@ -115,25 +121,36 @@
 		5F8DE8651EEF22C2004DA5B1 /* Gymlust */ = {
 			isa = PBXGroup;
 			children = (
-				5FB302511F00FA64007D028F /* assets */,
 				5F8DE8661EEF22C2004DA5B1 /* AppDelegate.swift */,
-				5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */,
+				5FB302511F00FA64007D028F /* assets */,
 				5F8DE86D1EEF22C2004DA5B1 /* Assets.xcassets */,
+				5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */,
+				5F8778F01FFD067A001C423F /* EventTableViewCell.swift */,
 				5F8DE8721EEF22C2004DA5B1 /* Info.plist */,
-				5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */,
-				5FB302221EFBB9D8007D028F /* Tournament.swift */,
-				5FB302241EFBBAD3007D028F /* Match.swift */,
-				5FB302261EFBBB36007D028F /* Participant.swift */,
-				5FB302281EFBBB6A007D028F /* Score.swift */,
-				5FB3022A1EFBBD35007D028F /* TournamentViewController.swift */,
+				5F6116671FC2D4EC00ADE600 /* Main.storyboard */,
+				5F9C78A71FFCFF890052E7DD /* models */,
 				5FB302311EFCE49B007D028F /* ParticipantViewController.swift */,
 				5F2520FF1F0284B400E8A9A2 /* RefereeViewController.swift */,
-				5F2521011F0287F300E8A9A2 /* AppUser.swift */,
-				5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */,
 				5FAE138F1F81724F002983EC /* ResultsViewController.swift */,
-				5F6116671FC2D4EC00ADE600 /* Main.storyboard */,
+				5F9C78A51FFCF1FB0052E7DD /* SelectEventViewController.swift */,
+				5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */,
+				5FB3022A1EFBBD35007D028F /* TournamentViewController.swift */,
+				5F8DE8681EEF22C2004DA5B1 /* ViewController.swift */,
 			);
 			path = Gymlust;
+			sourceTree = "<group>";
+		};
+		5F9C78A71FFCFF890052E7DD /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5F2521011F0287F300E8A9A2 /* AppUser.swift */,
+				5FB302281EFBBB6A007D028F /* Score.swift */,
+				5FB302261EFBBB36007D028F /* Participant.swift */,
+				5FB302241EFBBAD3007D028F /* Match.swift */,
+				5FB302221EFBB9D8007D028F /* Tournament.swift */,
+				5F9C78A81FFCFFF10052E7DD /* Event.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 		5FB302511F00FA64007D028F /* assets */ = {
@@ -331,9 +348,12 @@
 				5FB302321EFCE49B007D028F /* ParticipantViewController.swift in Sources */,
 				5F78E7F01EF9AF4000D541CE /* SigninViewController.swift in Sources */,
 				5F25210C1F06DA2100E8A9A2 /* EditScoreViewController.swift in Sources */,
+				5F9C78A91FFCFFF10052E7DD /* Event.swift in Sources */,
 				5FB302271EFBBB36007D028F /* Participant.swift in Sources */,
 				5F78E7F41EF9B07900D541CE /* UIViewController+Alerts.m in Sources */,
+				5F8778F11FFD067A001C423F /* EventTableViewCell.swift in Sources */,
 				5F2521021F0287F300E8A9A2 /* AppUser.swift in Sources */,
+				5F9C78A61FFCF1FB0052E7DD /* SelectEventViewController.swift in Sources */,
 				5FB302231EFBB9D8007D028F /* Tournament.swift in Sources */,
 				5F2521001F0284B400E8A9A2 /* RefereeViewController.swift in Sources */,
 				5FB302251EFBBAD3007D028F /* Match.swift in Sources */,
