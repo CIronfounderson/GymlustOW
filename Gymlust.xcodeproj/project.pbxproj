@@ -15,6 +15,7 @@
 		5F25210A1F04304600E8A9A2 /* vault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F2521061F04304600E8A9A2 /* vault.png */; };
 		5F25210C1F06DA2100E8A9A2 /* EditScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */; };
 		5F6116681FC2D4EC00ADE600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6116671FC2D4EC00ADE600 /* Main.storyboard */; };
+		5F747B381FFF758600E513DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F747B371FFF758600E513DF /* LaunchScreen.storyboard */; };
 		5F78E7F01EF9AF4000D541CE /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */; };
 		5F78E7F41EF9B07900D541CE /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */; };
 		5F8026501F09761B005BEAC0 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F80264F1F09761B005BEAC0 /* lock.png */; };
@@ -52,6 +53,7 @@
 		5F2521061F04304600E8A9A2 /* vault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vault.png; sourceTree = "<group>"; };
 		5F25210B1F06DA2100E8A9A2 /* EditScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditScoreViewController.swift; sourceTree = "<group>"; };
 		5F6116671FC2D4EC00ADE600 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5F747B371FFF758600E513DF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Gymlust/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F78E7EF1EF9AF4000D541CE /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		5F78E7F11EF9B07800D541CE /* Gymlust-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gymlust-Bridging-Header.h"; sourceTree = "<group>"; };
 		5F78E7F21EF9B07900D541CE /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		5F8DE85A1EEF22C2004DA5B1 = {
 			isa = PBXGroup;
 			children = (
+				5F747B371FFF758600E513DF /* LaunchScreen.storyboard */,
 				5F78E7F21EF9B07900D541CE /* UIViewController+Alerts.h */,
 				5F78E7F31EF9B07900D541CE /* UIViewController+Alerts.m */,
 				5F8DE87D1EF5B13C004DA5B1 /* GoogleService-Info.plist */,
@@ -263,6 +266,7 @@
 				5F6116681FC2D4EC00ADE600 /* Main.storyboard in Resources */,
 				5F2521071F04304600E8A9A2 /* beam.png in Resources */,
 				5F25210A1F04304600E8A9A2 /* vault.png in Resources */,
+				5F747B381FFF758600E513DF /* LaunchScreen.storyboard in Resources */,
 				5F8DE87E1EF5B13C004DA5B1 /* GoogleService-Info.plist in Resources */,
 				5F8DE86E1EEF22C2004DA5B1 /* Assets.xcassets in Resources */,
 				5FE745701F324C470099B60F /* gymlustAppIcon.png in Resources */,
